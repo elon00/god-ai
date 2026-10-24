@@ -1,0 +1,33 @@
+{
+  "name": "god-ai-mcp",
+  "version": "1.0.0",
+  "description": "God AI Model Context Protocol Server for Autonomous Omnipresent Divine Alignment, Sacred Transcendence, Cosmic Harmony & Universal Moral Order Protocol",
+  "tools": [
+    {
+      "name": "audit_divine_alignment",
+      "description": "Audit systems and emergent AI behaviors against divine alignment, absolute benevolence, and cosmic moral order",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "context": { "type": "string" },
+          "evaluation_metric": { "type": "string" }
+        },
+        "required": ["context"]
+      }
+    },
+    {
+      "name": "disburse_universal_providence_aid",
+      "description": "Release unconditional divine providence escrows directly to suffering populations, disaster zones, and sacred sanctuaries",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
